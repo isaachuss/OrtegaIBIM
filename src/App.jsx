@@ -1,33 +1,56 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <header className="topo">
+          <div className="container">
+            <div className="divlogo">
+              <div className="img">
+                <img className="logo" src="/images/icons8-cd-100.png" alt="Logo" />
+              </div>
+              <div className="h1">
+                <h1>MUZAAC</h1>
+              </div>
+            </div>
+          </div>
+        </header>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div className="btopo">
+        <h2 className="font">Os melhores discos e CDs</h2>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <div className="botonbox">
+        <div className="gridItem red img1">
+          <h2 className="font white">Garantimos um garimpo de qualidade!</h2>
+        </div>
+        <div className="gridItem red img2">
+          <h2 className="font white">Vendemos também aparelhos de som!</h2>
+        </div>
+        <div className="gridItem red img3">
+          <h2 className="font white">Produtos de qualidade com valores variados!</h2>
+        </div>
+      </div>
+
+      <div className="prod">
+        <div className="prods red p1"></div>
+        <div className="prods red p2"></div>
+        <div className="prods red p3"></div>
+        <div className="prods red p4"></div>
+        <div className="prods red p5">.3</div>
+        <div className="prods red p6"></div>
+      </div>
+
+      <div className="baixod">
+        <div className="baixo red">
+          <h2 className="font white">MUZAAC</h2>
+          <div>
+            <h4 className="font">(55)996759409</h4>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
