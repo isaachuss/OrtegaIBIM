@@ -3,23 +3,10 @@ import './App.css'
 function App() {
   return (
     <>
-      <div>
-        <header className="topo">
-          <div className="container">
-            <div className="divlogo">
-              <div className="img">
-                <img className="logo" src="https://images.vexels.com/media/users/3/153242/isolated/preview/6076a2083aacc2b3affbc0cc7a35c0d7-icone-plano-do-disco-compacto-multimidia.png" alt="Logo" />
-              </div>
-              <div className="h1">
-                <h1>MUZAAC</h1>
-              </div>
-            </div>
-          </div>
-        </header>
-      </div>
+      <Header/>
 
       <div className="btopo">
-        <h2 className="font">Os melhores discos e CDs</h2>
+        <h2 className="font">Os melhores discos eee CDs</h2>
       </div>
 
       <div className="botonbox">
